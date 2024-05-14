@@ -1,2 +1,2 @@
-email    = "catherine_agnes.corpuz@genesys.com"
-division = "New Home"
+email    = "user@company.com"
+division = "Home"

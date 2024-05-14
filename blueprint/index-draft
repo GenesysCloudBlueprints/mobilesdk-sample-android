@@ -73,14 +73,14 @@ An organization wants to allow their customers to start a web message with an ag
 
 In the **blueprint/terraform/dev.auto.tfvars** file, set the following values, which are specific to your Genesys Cloud organization:
 
-* `email`    - This value is the email account that you use with Genesys Cloud. It will be used to assign you to the appropriate Genesys Cloud group and que
+* `email`    - This value is the email account that you use with Genesys Cloud. It will be used to assign you to the appropriate Genesys Cloud queue.
 * `division` - The division to which the flow is deployed. By default, the new flows are deployed to the **Home** division.
 
 The following is an example of the **dev.auto.tfvars** file.
 
 ```
-qemail    = "user@company.com"
-division  = "Home"
+email    = "user@company.com"
+division = "Home"
 ```
 
 ### Run Terraform
@@ -101,6 +101,13 @@ After the `terraform apply --auto-approve` command successfully completes, you s
 * This project assumes that you run this blueprint solution with a local Terraform backing state, which means that the `tfstate` files are created in the same folder where you run the project. Terraform recommends that you use local Terraform backing state files only if you run from a desktop and are comfortable with the deleted files.
 
 * As long as you keep your local Terraform backing state projects, you can tear down this blueprint solution. To tear down the solution, change to the `docs/terraform` folder and issue the `terraform destroy --auto-approve` command. This command destroys all objects that the local Terraform backing state currently manages.
+
+### Enter messaging deployment details in mobile app
+
+1. In Genesys Admin UI, navigate to **Admin > Message > Messenger Deployments > ** *Mobile SDK Web Deployment*. Copy your Deployment Key.
+   ![Web deployment](images/web-deployment.png "Web deployment")
+2. Navigate to **/BasicMobileApp/app/src/main/java/com/example/basicmobileapp/MainActivity.kt**. In line 26, paste your deployment key and enter your region.
+   ![MainActivity.kt](images/main-activity-update.png "MainActivity.kt")
 
 ### Test the solution
 

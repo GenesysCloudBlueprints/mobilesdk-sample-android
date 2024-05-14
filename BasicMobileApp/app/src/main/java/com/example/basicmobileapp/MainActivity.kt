@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var fragmentManager: FragmentManager
 
-    private val messengerAccount = MessengerAccount("d775fbe1-d6a3-4b13-9b8a-d35f42857475", "mypurecloud.com").apply {
+    private val messengerAccount = MessengerAccount("ENTER_YOUR_DEPLOYMENT_ID", "ENTER_YOUR_REGION").apply {
         logging = true
     }
 
