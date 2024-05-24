@@ -106,7 +106,7 @@ After the `terraform apply --auto-approve` command successfully completes, you s
 
 1. In Genesys Admin UI, navigate to **Admin > Message > Messenger Deployments > ** *Mobile SDK Web Deployment*. Copy your Deployment Key.
    ![Web deployment](images/web-deployment.png "Web deployment")
-2. Navigate to **/BasicMobileApp/app/src/main/java/com/example/basicmobileapp/MainActivity.kt**. In line 26, paste your deployment key and enter your region.
+2. Navigate to **/MobileApp/app/src/main/java/com/example/mobileapp/MainActivity.kt**. In line 19, paste your deployment key and enter your region.
    ![MainActivity.kt](images/main-activity-update.png "MainActivity.kt")
 
 ### Test the solution
