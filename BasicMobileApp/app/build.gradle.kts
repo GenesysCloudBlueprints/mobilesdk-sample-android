@@ -54,9 +54,9 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     //Genesys Cloud
-    implementation("com.genesys.cloud:core:1.7.0")
-    implementation("com.genesys.cloud:chatintegration:1.7.0")
-    implementation("com.genesys.cloud:ui:1.7.0")
+    implementation("com.genesys.cloud:core:1.8.1")
+    implementation("com.genesys.cloud:chatintegration:1.8.1")
+    implementation("com.genesys.cloud:ui:1.8.1")
     //Fragments
     implementation("androidx.fragment:fragment-ktx:1.6.2")
 }
