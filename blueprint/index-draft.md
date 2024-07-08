@@ -126,8 +126,8 @@ Perform the following steps to understand the customer experience.
    ![Agent message](images/agent-message.png "Agent message")
 3. Practice sending messages back and forth as agent and customer.
    ![Messages](images/messages.png "Messages")
-4. As the customer, click the **End** button.
-   ![End conversation](images/end-conversation.png "End conversation")
+4. As the customer, click the **End** button
+   ![End conversation](images/end-conversation.png "End conversation").
 
 ## Additional resources
 
