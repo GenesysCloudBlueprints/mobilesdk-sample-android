@@ -1,4 +1,4 @@
-   ---
+---
 title: Build an Android Mobile Messaging app that uses the mobile SDK for web messaging
 author: agnes.corpuz
 indextype: blueprint
@@ -8,6 +8,7 @@ category: 7
 summary: |
   This Genesys Cloud Developer Blueprint explains how to develop an Android mobile app that uses the mobile SDK for web messaging. Deploy all the components used in this solution with the Terraform Genesys Cloud CX-as-Code provider.
 ---
+:::{"alert":"primary","title":"About Genesys Cloud Blueprints","autoCollapse":false} 
 Genesys Cloud blueprints help you get started with building an application or integrating with a third-party partner. 
 Blueprints outline the procedure to build and deploy your solutions; they do not provide a production-ready, turnkey solution.
  
